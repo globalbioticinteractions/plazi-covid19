@@ -1,0 +1,93 @@
+{
+  "@context": [
+    "http://www.w3.org/ns/csvw",
+    {
+      "@language": "en"
+    }
+  ],
+  "rdfs:comment": [
+    "inspired by https://www.w3.org/TR/2015/REC-tabular-data-model-20151217/"
+  ],
+  "url": "https://docs.google.com/spreadsheets/u/0/d/1Rq57pmrA3V3k_PrKWGG0Y65-ZN9TRR497lmUu9wx0Cc/export?format=csv",
+  "citation": "Markus Guidoti, Donat Agnosti, Tatiana Russchel. 2020. Corona virus related biotic associations manually extracted from literature. Plazi.",
+  "headerRowCount": 1,
+  "null": [
+    ""
+  ],
+  "interactionTypeId": "http://purl.obolibrary.org/obo/RO_0002453",
+  "interactionTypeName": "host of",
+  "tableSchema": {
+    "columns": [
+      {
+        "name": "id",
+        "titles": "id",
+        "datatype": "string"
+      },
+      {
+        "name": "Taxon id",
+        "titles": "Taxon id",
+        "datatype": "string"
+      },
+      {
+        "name": "Preferred term",
+        "titles": "Preferred term",
+        "datatype": "string"
+      },
+      {
+        "name": "Synonymes",
+        "titles": "Synonymes",
+        "datatype": "string"
+      },
+      {
+        "name": "sourceTaxonName",
+        "titles": "Host Scientific",
+        "datatype": "string"
+      },
+      {
+        "name": "targetTaxonCommonName",
+        "titles": "Host Vernacular",
+        "datatype": "string"
+      },
+      {
+        "name": "targetTaxonName",
+        "titles": "Coronavirus Species",
+        "datatype": "string"
+      },
+      {
+        "name": "Abbreviation",
+        "titles": "Abbreviation",
+        "datatype": "string"
+      },
+      {
+        "name": "Filename",
+        "titles": "Filename",
+        "datatype": "string"
+      },
+      { 
+        "name": "referenceCitation",
+        "titles": "",
+        "datatype": "string"
+      },
+      {
+        "name": "dwc-host",
+        "titles": "dwc-host",
+        "datatype": "string"
+      },
+      {
+        "name": "dwc-virus",
+        "titles": "dwc-virus",
+        "datatype": "string"
+      },
+      {
+        "name": "dwc-relationship",
+        "titles": "dwc-relationship",
+        "datatype": "string"
+      },
+      {
+        "name": "OBS",
+        "titles": "OBS",
+        "datatype": "string"
+      }
+    ]
+  }
+}
