@@ -44,7 +44,7 @@
         "datatype": "string"
       },
       {
-        "name": "targetTaxonCommonName",
+        "name": "sourceTaxonCommonName",
         "titles": "Host Vernacular",
         "datatype": "string"
       },
